@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('foto-gunung.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.body-container {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+}
+
+.container {
+    max-width: 300px;
+    margin: 50px auto 20px; 
+    padding: 20px;
+    background: #adde86;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+.profile-pic {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sosmed {
+    display: block;
+    gap: 10px;
+    width: 320px;
+    margin: 10px auto 10px; 
+    padding: 5px;
+    background: #adde86;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.sosmed a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #adde86; 
+    margin-top: auto; 
+    padding: 10px 0;
+}
+
+.kaki {
+    padding: 10px;
+    background: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text-center {
+  margin: 0;
+}
